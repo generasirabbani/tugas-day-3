@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Top 20 Anime Movies</title>
+    <link rel="icon" type="image/png" href="./img/video-camera-png.png" sizes="16x16" />
+</head>
+<body>
+
+    <div class="pageContainer">
+        <div class="pageCenter">
+
+            <h1>Top 20 Anime Movies</h1>
+            <p class="ltext">Top 20 Anime Movies, data sourced from the MyAnimeList</p>
+            <input type="text" id="myInput" oninput="processSearch(this)" placeholder="Search for a movie title">
+            <div id="movieList">
+
+                <div class="movieItem" onclick="openModal(this, movieModal)">
+                    <span class="stext movieRank">0</span>
+                    <img class="movieThumb loading" src="./img/loading.png">
+                    <a class="stext movieTitle">Loading Data...</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="movieModal" class="modal">
+
+        <!-- Modal content -->
+        <span class="closeModal">&times;</span>
+        <div class="modalContent">
+            
+            <div class="movieInfo">
+
+                <img id="mvPoster" class="moviePoster" src="./img/loading.png">
+
+                <div class="aboutMovie"> 
+                    <a id="mvTitle" class="sltext">Page is still loading</a>
+                    <span id="mvReleaseDate" class="sltext block">2020</span>
+                    <div id="starRating" class="star"> 
+                        <span class="fullstar fa fa-solid fa-star"></span>
+                        <span class="halfstar fa fa-solid fa-star-half-stroke"></span>
+                        <span class="emptystar fa fa-regular fa-star"></span>
+                    </div>
+                    <a id="mvRatingNum" class="sltext">420/03</a>
+                </div>
+             
+            </div>
+
+            <div class="movieDesc">
+                <h4 class="sltext">Description:</h4>
+                <p id="movieDesc" class="sltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a id="malpage" class="centerText boldText kindabigText" href="#" target="_blank">MyAnimeList Page</a>
+            </div>
+
+        </div>
+      
+    </div>
+    <p class="stext centerText">Made by <a href="https://github.com/generasirabbani" target="_blank">Rafif Rabbani</a></p>
+    <script src="./main.js"></script>
+</body>
+</html>
