@@ -24,13 +24,15 @@ h1 {
 .ltext {
     color: var(--fg);
     text-align: center; 
+    margin-top: 3px;
+    margin-bottom: 3px;
     background-color: #1d439b;
     height: 34px;
     width: 1060px;
 }
 
 .stext {
-    color: var(--text);
+    color: #000000;
     font-size: 16px;
 }
 
