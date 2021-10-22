@@ -3,7 +3,7 @@ body {
     /* CSS HEX */
     --bigtext: #1d439b;
     --text: #1d439b7c;
-    --lightText: #1d439b7c;
+    --lightText: #e1e7f5;
     --acolor: #1d439baf;
     --fg: #f4f5f6;
     --bg: #ffffff;
@@ -16,14 +16,16 @@ body {
 h1 {
     color: var(--bigtext);
     text-align: center;
-    font-size: 4em;
+    font-size: 55px;
     margin-top: 12px;
     margin-bottom: 8px;
 }
 
 .ltext {
-    color: var(--text);
+    color: var(--fg);
     text-align: center; 
+    background-color: #1d439b;
+    width: 1060px;
 }
 
 .stext {
@@ -159,7 +161,7 @@ p {
   /* The Close Button */
   .closeModal {
     color: #aaa;
-    position: absolute;
+    position: relative;
     right: 32px;
     font-size: 4em;
     font-weight: bold;
