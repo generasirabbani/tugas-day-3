@@ -1,14 +1,14 @@
 /* Main Page CSS */
 body {
     /* CSS HEX */
-    --bigtext: #a2abd4;
-    --text: #b0d1b6;
+    --bigtext: #1d439b;
+    --text: #1d439b7c;
     --lightText: #fefefe;
-    --acolor: #682828;
-    --fg: #4e3333;
-    --bg: #552c2c;
+    --acolor: #1d439baf;
+    --fg: #f4f5f6;
+    --bg: #ffffff;
     
-    font-family: 'Arial', cursive;
+    font-family: 'Verdana', cursive;
     background-color: var(--bg);
 
 }
