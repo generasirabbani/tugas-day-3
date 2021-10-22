@@ -24,8 +24,7 @@ h1 {
 .ltext {
     color: var(--fg);
     text-align: center; 
-    margin-top: 3px;
-    margin-bottom: 3px;
+    font-size: 34px;
     background-color: #1d439b;
     height: 34px;
     width: 1060px;
@@ -119,10 +118,10 @@ p {
 }
 
 .movieRank {
-    font-size: 36px;
+    font-size: 16px;
     color: #888;
     border-right: solid thin #666;
-    padding: 12px 4px 12px 12px;
+    padding: 12px 12px 12px 12px;
     margin: 4px 4px 4px 4px;
 }
 
