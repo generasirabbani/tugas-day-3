@@ -226,7 +226,7 @@ a:active {
 }
 
 .linkNama {
-    color: var(--text);
+    color: #1d439b7c;
 }
 
 input[type=text], select {
