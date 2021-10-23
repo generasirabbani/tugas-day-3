@@ -8,13 +8,14 @@ body {
     --fg: #f4f5f6;
     --bg: #cdd3df;
     
-    font-family: 'Verdana', cursive;
+    font-family: 'Verdana', Arial, cursive;
     background-color: var(--bg);
 
 }
 
 h1 {
     color: var(--bigtext);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 55px;
     margin-top: 12px;
