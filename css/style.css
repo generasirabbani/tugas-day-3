@@ -3,7 +3,7 @@ body {
     /* CSS HEX */
     --bigtext: #1d439b;
     --text: #1d439b7c;
-    --lightText: #3DB2FF;
+    --lightText: #e1e7f5;
     --acolor: #1d439baf;
     --fg: #f4f5f6;
     --bg: #cdd3df;
@@ -223,6 +223,10 @@ a:hover {
 /* selected link */
 a:active {
     text-decoration: underline;
+}
+
+.linkNama {
+    color: var(--text);
 }
 
 input[type=text], select {
