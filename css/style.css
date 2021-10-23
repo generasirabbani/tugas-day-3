@@ -225,8 +225,9 @@ a:active {
     text-decoration: underline;
 }
 
-a .linknama {
-    color: #1d439b7c;
+.linknama {
+    color: darkblue;
+    font-weight: bold;
 }
 
 input[type=text], select {
