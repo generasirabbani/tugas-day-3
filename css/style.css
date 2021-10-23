@@ -27,8 +27,9 @@ h1 {
     vertical-align: middle; 
     font-size: 16px;
     background-color: #1d439b;
-    height: 34px;
-    width: 1120px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .stext {
