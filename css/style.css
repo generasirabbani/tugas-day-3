@@ -23,7 +23,6 @@ h1 {
 
 .ltext {
     color: var(--fg);
-    text-align: center;
     font-size: 16px;
     background-color: #1d439b;
     padding-right: 100%;
