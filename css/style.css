@@ -6,7 +6,7 @@ body {
     --lightText: #e1e7f5;
     --acolor: #1d439baf;
     --fg: #f4f5f6;
-    --bg: #cdd3df;
+    --bg: #788297;
     
     font-family: 'Verdana', cursive;
     background-color: var(--bg);
@@ -204,7 +204,7 @@ p {
 
 /* unvisited link */
 a {
-    color: grey;
+    color: var(--lightText);
 }
 a:link {
     text-decoration: none;
