@@ -27,8 +27,8 @@ h1 {
     vertical-align: middle; 
     font-size: 16px;
     background-color: #1d439b;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 100%;
+    padding-left: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -206,7 +206,7 @@ p {
 
 /* unvisited link */
 a {
-    color: var(--bigtext);
+    color: var(--lightText);
 }
 a:link {
     text-decoration: none;
