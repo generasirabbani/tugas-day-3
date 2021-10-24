@@ -1,3 +1,4 @@
+// this code is sourced from https://github.com/misaalanshori/GDSC-Website-List-Movie
 async function getJSON() {
     const response = await fetch("movies.json");
     const movieJSON = await response.json()
